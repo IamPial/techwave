@@ -9,6 +9,9 @@
   #about {
     padding: 40px 0;
   }
+  .container {
+    width: 90%;
+  }
   /* nav section */
   .navbar {
     padding: 20px;
@@ -130,5 +133,19 @@
   .feature-cards {
     grid-template-columns: repeat(1, 1fr);
     gap: 16px;
+  }
+
+  /* host section */
+  .host-content .host-bio {
+    flex-direction: column;
+  }
+  .host-description {
+    text-align: center;
+  }
+  .host-bio .host-description h3 {
+    font-size: 1.5rem;
+  }
+  .host-description .host-social-icon {
+    justify-content: center;
   }
 }
