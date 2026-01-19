@@ -87,7 +87,7 @@ nav {
   background-image: url("../assets/hero-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top bottom;
+  background-position: center center;
   padding: 100px 0;
 }
 .banner-content {
@@ -99,9 +99,7 @@ nav {
 
   max-width: 350px;
 }
-.banner-img img.circle {
-  width: 100%;
-}
+
 .banner-img .microphone-img {
   position: absolute;
   top: 25%;
