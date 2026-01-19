@@ -299,6 +299,9 @@ nav {
 }
 
 /* host section */
+#host {
+  padding-bottom: 120px;
+}
 .host-content .section-heading {
   margin-bottom: 40px;
   text-align: center;

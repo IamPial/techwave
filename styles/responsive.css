@@ -136,6 +136,9 @@
   }
 
   /* host section */
+  #host {
+    padding-bottom: 40px;
+  }
   .host-content .host-bio {
     flex-direction: column;
   }
