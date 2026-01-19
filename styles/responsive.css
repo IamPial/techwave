@@ -1,0 +1,21 @@
+/* for small device */
+@media screen and (max-width: 576px) {
+  /* nav section */
+  .navbar {
+    padding: 20px;
+    margin: 0;
+    width: 100%;
+  }
+  .navbar .logo-img {
+    width: 137px;
+  }
+  .subscribe-btn {
+    display: none;
+  }
+  .navbar ul {
+    display: none;
+  }
+  .navbar .hamburger-menu {
+    display: block;
+  }
+}
