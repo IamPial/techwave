@@ -88,4 +88,41 @@
   .about-area .about-rating .about-rating-card p {
     font-size: 0.7rem;
   }
+
+  /* details section */
+  #details {
+    padding: 40px 0;
+  }
+  .details-content .section-heading {
+    font-size: 1.8rem;
+  }
+  .details-card-content {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 16px;
+  }
+  .details-card-content .details-card {
+    padding: 24px;
+  }
+  .details-card-content .details-card h3 {
+    font-size: 1.4rem;
+  }
+  .details-card-content .details-card:nth-child(1) {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+
+  .details-card-content .details-card:nth-child(2) {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+
+  .details-card-content .details-card:nth-child(3) {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .details-card-content .details-card:nth-child(4) {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
 }
