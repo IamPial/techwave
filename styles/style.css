@@ -141,6 +141,7 @@ nav {
   align-items: center;
   gap: 5px;
   padding: 12px 20px;
+  text-transform: capitalize;
   transition: all 0.3s ease-in;
 }
 .spotify-btn:hover {
@@ -164,7 +165,6 @@ nav {
 /* about section */
 #about {
   padding: 50px 0 120px;
-  border: 1px solid #fff;
 }
 .about-area .about-podcast .section-heading {
   margin-bottom: 16px;
