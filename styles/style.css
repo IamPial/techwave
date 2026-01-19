@@ -9,3 +9,63 @@
 body {
   background-color: #1a0b2e;
 }
+/* shared style */
+.container {
+  width: 75%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.btn {
+  display: block;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  background-image: linear-gradient(to top right, #f7e93f, #fb09b4, #9100f8);
+
+  transition: transform 0.3s ease-in-out;
+}
+.btn:hover {
+  transform: scale(1.05);
+}
+.btn:hover i {
+  transform: translateX(8px);
+}
+
+/* main style */
+
+/* nav section */
+nav {
+  border-bottom: 1px solid #412567;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+}
+.navbar .logo-img {
+  width: 220px;
+}
+.navbar .logo-img img {
+  width: 100%;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.navbar ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 30px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.navbar .hamburger-menu {
+  display: none;
+}
