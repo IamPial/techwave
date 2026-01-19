@@ -345,3 +345,42 @@ nav {
   margin-top: 10px;
   display: inline-block;
 }
+
+/* footer section */
+#footer {
+  padding: 120px 0;
+  background-image: url("../assets/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.footer-img {
+  max-width: 350px;
+  margin: 0 auto 32px;
+}
+.footer-img img {
+  width: 100%;
+}
+.footer-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.footer-social li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+}
+.footer-social li img {
+  margin-right: 10px;
+}
+.footer-content p {
+  text-align: center;
+  margin-top: 34px;
+  color: #ffffff;
+  line-height: 24px;
+}
