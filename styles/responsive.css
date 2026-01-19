@@ -57,4 +57,35 @@
     padding: 0 15px;
     font-size: 0.9rem;
   }
+  /* about section */
+  #about {
+    padding: 40px 0;
+  }
+  .about-area .about-podcast .section-heading {
+    font-size: 2rem;
+  }
+  .about-area .about-podcast p {
+    font-size: 0.9rem;
+    line-height: 20px;
+  }
+  .about-area .about-podcast br {
+    display: none;
+  }
+  .about-area .about-podcast p:last-child {
+    margin-top: 10px;
+  }
+  .about-area .divider {
+    margin: 40px 0;
+  }
+  .about-area .about-rating {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  .about-area .about-rating .about-rating-card h3 {
+    font-size: 2.5rem;
+  }
+  .about-area .about-rating .about-rating-card p {
+    font-size: 0.7rem;
+  }
 }
