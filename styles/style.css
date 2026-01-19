@@ -185,6 +185,7 @@ nav {
 }
 
 .about-area .about-rating {
+  display: flex;
   justify-content: space-between;
 }
 .about-area .about-rating .about-rating-card h3 {
