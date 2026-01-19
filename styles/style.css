@@ -302,6 +302,7 @@ nav {
 .host-content .section-heading {
   margin-bottom: 40px;
   text-align: center;
+  text-transform: capitalize;
 }
 .host-content .host-bio {
   display: flex;
@@ -311,11 +312,15 @@ nav {
   border-radius: 40px;
   background-color: rgba(53, 17, 101, 0.4);
 }
+.host-description {
+  text-align: left;
+}
 .host-bio .host-description h3 {
   font-size: 2rem;
   color: #fff;
   font-weight: 700;
   margin-bottom: 16px;
+  text-transform: capitalize;
 }
 .host-bio .host-description p {
   font-size: 1rem;
