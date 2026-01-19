@@ -1,5 +1,14 @@
 /* for small device */
 @media screen and (max-width: 576px) {
+  /* shared style */
+  .section-heading {
+    font-size: 1.8rem;
+  }
+  #details,
+  #feature,
+  #about {
+    padding: 40px 0;
+  }
   /* nav section */
   .navbar {
     padding: 20px;
@@ -58,9 +67,7 @@
     font-size: 0.9rem;
   }
   /* about section */
-  #about {
-    padding: 40px 0;
-  }
+
   .about-area .about-podcast .section-heading {
     font-size: 2rem;
   }
@@ -90,12 +97,6 @@
   }
 
   /* details section */
-  #details {
-    padding: 40px 0;
-  }
-  .details-content .section-heading {
-    font-size: 1.8rem;
-  }
   .details-card-content {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(5, 1fr);
@@ -124,5 +125,10 @@
   .details-card-content .details-card:nth-child(4) {
     grid-column: 1/2;
     grid-row: 4/5;
+  }
+  /* feature section */
+  .feature-cards {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
   }
 }
