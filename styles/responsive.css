@@ -55,6 +55,56 @@
   #banner {
     padding: 50px 0;
   }
+
+  #about {
+    padding: 50px 0 60px;
+  }
+  .about-area .about-podcast p {
+    font-size: 1rem;
+    line-height: 20px;
+    padding: 0 60px;
+  }
+  .about-area .about-podcast p br {
+    display: none;
+  }
+  .about-area .about-rating {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  #details,
+  #feature {
+    padding: 80px 0;
+  }
+
+  .details-card-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .details-card-content .details-card:nth-child(1) {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .details-card-content .details-card:nth-child(2) {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .details-card-content .details-card:nth-child(3) {
+    grid-column: 1/2;
+    grid-row: 2/2;
+  }
+
+  .feature-cards {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 40px;
+  }
+  .feature-single-card .feature-card-video iframe {
+    height: auto;
+  }
+
+  #footer {
+    padding: 60px 0;
+  }
 }
 
 /* for small device */
