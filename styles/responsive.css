@@ -33,6 +33,30 @@
   }
 }
 
+/* for medium device (optional) */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .container {
+    width: 95%;
+  }
+  .navbar .logo-img {
+    width: 180px;
+  }
+  .navbar ul li a {
+    margin-left: 20px;
+    font-size: 0.9rem;
+  }
+  button.btn.subscribe-btn {
+    padding: 10px 16px;
+    font-size: 1rem;
+  }
+  button.btn.subscribe-btn i {
+    display: none;
+  }
+  #banner {
+    padding: 50px 0;
+  }
+}
+
 /* for small device */
 @media screen and (max-width: 576px) {
   /* shared style */
