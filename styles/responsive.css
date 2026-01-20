@@ -1,5 +1,9 @@
 /* for large device */
 @media screen and (min-width: 992px) {
+  #feature,
+  #about {
+    padding: 60px 0;
+  }
   .about-area .about-podcast br {
     display: none;
   }
