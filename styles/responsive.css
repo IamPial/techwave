@@ -1,3 +1,19 @@
+/* for large device */
+@media screen and (min-width: 992px) {
+  .about-area .about-podcast br {
+    display: none;
+  }
+  .about-area .about-podcast p:last-child {
+    margin-top: 10px;
+  }
+  .about-area .about-rating {
+    align-items: center;
+  }
+  .details-card-content .details-card {
+    padding: 15px;
+  }
+}
+
 /* for small device */
 @media screen and (max-width: 576px) {
   /* shared style */
