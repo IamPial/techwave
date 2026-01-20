@@ -12,6 +12,21 @@
   .details-card-content .details-card {
     padding: 15px;
   }
+  .feature-cards {
+    gap: 15px;
+  }
+  .feature-card-content h3 {
+    font-size: 1.2rem;
+  }
+  .feature-card-content p {
+    font-size: 0.9rem;
+  }
+  .host-content .host-bio {
+    padding: 20px;
+  }
+  .host-bio .host-description p {
+    font-size: 0.8rem;
+  }
 }
 
 /* for small device */
