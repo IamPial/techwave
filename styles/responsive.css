@@ -34,7 +34,7 @@
 
   #banner {
     background-size: contain;
-    background-position: center center;
+
     padding: 40px 0;
   }
   .circle {
@@ -150,5 +150,18 @@
   }
   .host-description .host-social-icon {
     justify-content: center;
+  }
+
+  /* footer section */
+  #footer {
+    padding: 40px 0;
+  }
+  .footer-img {
+    max-width: 220px;
+    margin: 0 auto 24px;
+  }
+  .footer-social {
+    gap: 20px;
+    flex-wrap: wrap;
   }
 }
